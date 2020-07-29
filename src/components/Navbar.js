@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import { Routerbrowser as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-
+import Home from "./Home";
+import House01 from "./House01";
+import House02 from "./House01";
+import House03 from "./House01";
+import House04 from "./House01";
+import House05 from "./House01";
+import House06 from "./House01";
+import House07 from "./House01";
 
  class Navbar extends Component {
     render() {
@@ -30,9 +37,9 @@ import axios from "axios";
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">All Houses</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">House Stark</a>
-          <a class="dropdown-item" href="#">House Targaryen</a>
-          <a class="dropdown-item" href="#">House Tyrell</a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Stark">House Stark</Link></a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Targaryen">House Targaryen</Link></a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Tyrell">House Tyrell</Link></a>
           <a class="dropdown-item" href="#">House Greyjoy</a>
           <a class="dropdown-item" href="#">House Martell</a>
           <a class="dropdown-item" href="#">House Barratheon</a>
