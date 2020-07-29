@@ -4,7 +4,7 @@ import React from 'react'
 function Houses() {
     return (
         <div>
-            <h1>Hello house page!!</h1>
+            <h1>Hello home page!!</h1>
         </div>
     )
 }

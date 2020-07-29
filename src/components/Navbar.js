@@ -36,7 +36,7 @@ import House07 from "./House01";
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><Link to="Houses">All Houses</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses">All Houses</Link></a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#"><Link to="/Houses/Stark">House Stark</Link></a>
           <a class="dropdown-item" href="#"><Link to="/Houses/Targaryen">House Targaryen</Link></a>
@@ -60,14 +60,14 @@ import House07 from "./House01";
 </nav>
 <Switch>
     <Route exact path ="/" component={Home} />
-    <Route path ="/Houses" component={Houses} />
-    <Route path ="/Houses/Stark" component={House01} />
-    <Route path ="/Houses/Targaryen" component={House02} />
-    <Route path ="/Houses/Tyrell" component={House03} />
-    <Route path ="/Houses/Greyjoy" component={House04} />
-    <Route path ="/Houses/Martell" component={House05} />
-    <Route path ="/Houses/Baratheon" component={House06} />
-    <Route path ="/Houses/Lannister" component={House07} />
+    <Route exact path ="/Houses" component={Houses} />
+    <Route exact path ="/Houses/Stark" component={House01} />
+    <Route exact path ="/Houses/Targaryen" component={House02} />
+    <Route exact path ="/Houses/Tyrell" component={House03} />
+    <Route exact path ="/Houses/Greyjoy" component={House04} />
+    <Route exact path ="/Houses/Martell" component={House05} />
+    <Route exact path ="/Houses/Baratheon" component={House06} />
+    <Route exact path ="/Houses/Lannister" component={House07} />
 </Switch>
             </div>
             </Router>
