@@ -6,6 +6,7 @@ import axios from "axios";
  class Navbar extends Component {
     render() {
         return (
+            <Router>
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Age of Heroes</a>
@@ -49,7 +50,11 @@ import axios from "axios";
     </form>
   </div>
 </nav>
+<Switch>
+    <Route exact path ="/" component=(Home) />
+</Switch>
             </div>
+            </Router>
         )
     }
 }
