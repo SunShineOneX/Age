@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Routerbrowser as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
+import Home from "./Home";
 import Houses from "./Houses";
 import House01 from "./House01";
 import House02 from "./House01";
@@ -58,7 +59,9 @@ import House07 from "./House01";
   </div>
 </nav>
 <Switch>
-    <Route exact path ="/" component=(Home) />
+    <Route exact path ="/" component={Home} />
+    <Route path ="/Houses" component={Houses} />
+    <Route path ="/Houses/HouseStark" component={House01} />
 </Switch>
             </div>
             </Router>
