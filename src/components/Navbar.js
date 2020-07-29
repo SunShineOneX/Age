@@ -62,6 +62,8 @@ import House07 from "./House01";
     <Route exact path ="/" component={Home} />
     <Route path ="/Houses" component={Houses} />
     <Route path ="/Houses/HouseStark" component={House01} />
+    <Route path ="/Houses/HouseTargaryen" component={House02} />
+    
 </Switch>
             </div>
             </Router>
