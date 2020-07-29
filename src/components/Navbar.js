@@ -36,7 +36,7 @@ import House07 from "./House01";
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">All Houses</a>
+          <a class="dropdown-item" href="#"><Link to="Houses">All Houses</Link></a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#"><Link to="Houses/Stark">House Stark</Link></a>
           <a class="dropdown-item" href="#"><Link to="Houses/Targaryen">House Targaryen</Link></a>
