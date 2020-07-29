@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"; "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
+
 
 
 class House02 extends Component {
@@ -14,4 +15,4 @@ class House02 extends Component {
 }
 
 
-export default House02
+export default House02;

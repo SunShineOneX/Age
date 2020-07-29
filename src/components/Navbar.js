@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route, withRouter } from "react-router-dom";
 import axios from "axios";
 import Home from "./Home";
 import Houses from "./Houses";
 import House01 from "./House01";
-import House02 from "./House01";
-import House03 from "./House01";
-import House04 from "./House01";
-import House05 from "./House01";
-import House06 from "./House01";
-import House07 from "./House01";
+import House02 from "./House02";
+import House03 from "./House03";
+import House04 from "./House04";
+import House05 from "./House05";
+import House06 from "./House06";
+import House07 from "./House07";
 
  class Navbar extends Component {
     render() {
@@ -25,7 +25,7 @@ import House07 from "./House01";
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><Link to="/">Home <span class="sr-only">(current)</span></Link></a>
+        <a class="nav-link" href=""><Link to="/">Home <span class="sr-only">(current)</span></Link></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Shop</a>
@@ -36,15 +36,15 @@ import House07 from "./House01";
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><Link to="/Houses">All Houses</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses">All Houses</Link></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Stark">House Stark</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Targaryen">House Targaryen</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Tyrell">House Tyrell</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Greyjoy">House Greyjoy</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Martell">House Martell</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Baratheon">House Baratheon</Link></a>
-          <a class="dropdown-item" href="#"><Link to="/Houses/Lannister">House Lannister</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/stark">House Stark</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/targaryen">House Targaryen</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/tyrell">House Tyrell</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/greyjoy">House Greyjoy</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/martell">House Martell</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/baratheon">House Baratheon</Link></a>
+          <a class="dropdown-item" href=""><Link to="/houses/lannister">House Lannister</Link></a>
         </div>
         
       </li>
@@ -59,15 +59,16 @@ import House07 from "./House01";
   </div>
 </nav>
 <Switch>
-    <Route exact path ="/" component={Home} />
-    <Route exact path ="/Houses" component={Houses} />
-    <Route exact path ="/Houses/Stark" component={House01} />
-    <Route exact path ="/Houses/Targaryen" component={House02} />
-    <Route exact path ="/Houses/Tyrell" component={House03} />
-    <Route exact path ="/Houses/Greyjoy" component={House04} />
-    <Route exact path ="/Houses/Martell" component={House05} />
-    <Route exact path ="/Houses/Baratheon" component={House06} />
-    <Route exact path ="/Houses/Lannister" component={House07} />
+
+    <Route exact path ="/" component={withRouter(Home)} />
+    <Route exact path ="/houses" component={withRouter(Houses)} />
+    <Route path ="/houses/stark" component={withRouter(House01)} />
+    <Route path ="/houses/targaryen"  component={withRouter(House02)} />
+    <Route path ="/houses/tyrell"  component={withRouter(House03)} />
+    <Route path ="/houses/greyjoy"  component={withRouter(House04)} />
+    <Route path ="/houses/martell"  component={withRouter(House05)} />
+    <Route path ="/houses/baratheon"  component={withRouter(House06)} />
+    <Route path ="/houses/lannister"  component={withRouter(House07)} />
 </Switch>
             </div>
             </Router>
