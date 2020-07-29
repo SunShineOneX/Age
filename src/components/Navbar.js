@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Routerbrowser as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import Home from "./Home";
+import Houses from "./Houses";
 import House01 from "./House01";
 import House02 from "./House01";
 import House03 from "./House01";
@@ -40,10 +40,10 @@ import House07 from "./House01";
           <a class="dropdown-item" href="#"><Link to="Houses/Stark">House Stark</Link></a>
           <a class="dropdown-item" href="#"><Link to="Houses/Targaryen">House Targaryen</Link></a>
           <a class="dropdown-item" href="#"><Link to="Houses/Tyrell">House Tyrell</Link></a>
-          <a class="dropdown-item" href="#">House Greyjoy</a>
-          <a class="dropdown-item" href="#">House Martell</a>
-          <a class="dropdown-item" href="#">House Barratheon</a>
-          <a class="dropdown-item" href="#">House House Lannister</a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Greyjoy">House Greyjoy</Link></a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Martell">House Martell</Link></a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Baratheon">House Baratheon</Link></a>
+          <a class="dropdown-item" href="#"><Link to="Houses/Lannister">House Lannister</Link></a>
         </div>
         
       </li>

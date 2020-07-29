@@ -3,7 +3,7 @@ import { Routerbrowser as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
 
 
-class Home extends Component {
+class Houses extends Component {
     render() {
         return (
             <div>
@@ -17,4 +17,4 @@ class Home extends Component {
 }
 
 
-export default Home
+export default Houses;
