@@ -24,6 +24,7 @@ ReactJS, bootstrap, firebase
 - Learning firebase
 - Implementng a discussion board with profiles to post and discuss GoT topics.
 - Quizzes to determine which house and hero you most embody in spirit.
+- Using different branches to create each house and then merging via pull requests.
 
 ## APIs
 - https://www.anapioficeandfire.com/api/
