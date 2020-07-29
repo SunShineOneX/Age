@@ -21,6 +21,7 @@ import axios from "axios";
       <li class="nav-item">
         <a class="nav-link" href="#">Merchandise</a>
       </li>
+      
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
@@ -36,6 +37,10 @@ import axios from "axios";
           <a class="dropdown-item" href="#">House Barratheon</a>
           <a class="dropdown-item" href="#">House House Lannister</a>
         </div>
+        
+      </li>
+      <li class="nav-item ml-auto">
+        <a class="nav-link " href="#">Cart</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
