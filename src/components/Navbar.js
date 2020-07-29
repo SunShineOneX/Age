@@ -61,8 +61,10 @@ import House07 from "./House01";
 <Switch>
     <Route exact path ="/" component={Home} />
     <Route path ="/Houses" component={Houses} />
-    <Route path ="/Houses/HouseStark" component={House01} />
-    <Route path ="/Houses/HouseTargaryen" component={House02} />
+    <Route path ="/Houses/Stark" component={House01} />
+    <Route path ="/Houses/Targaryen" component={House02} />
+    <Route path ="/Houses/Tyrell" component={House03} />
+    <Route path ="/Houses/Greyjoy" component={House04} />
     
 </Switch>
             </div>
