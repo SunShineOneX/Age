@@ -25,7 +25,7 @@ import House07 from "./House01";
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"><Link to="/">Home <span class="sr-only">(current)</span></Link></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Shop</a>
@@ -38,13 +38,13 @@ import House07 from "./House01";
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#"><Link to="Houses">All Houses</Link></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><Link to="Houses/Stark">House Stark</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Targaryen">House Targaryen</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Tyrell">House Tyrell</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Greyjoy">House Greyjoy</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Martell">House Martell</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Baratheon">House Baratheon</Link></a>
-          <a class="dropdown-item" href="#"><Link to="Houses/Lannister">House Lannister</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Stark">House Stark</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Targaryen">House Targaryen</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Tyrell">House Tyrell</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Greyjoy">House Greyjoy</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Martell">House Martell</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Baratheon">House Baratheon</Link></a>
+          <a class="dropdown-item" href="#"><Link to="/Houses/Lannister">House Lannister</Link></a>
         </div>
         
       </li>
