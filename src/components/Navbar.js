@@ -67,7 +67,7 @@ import House07 from "./House01";
     <Route path ="/Houses/Greyjoy" component={House04} />
     <Route path ="/Houses/Martell" component={House05} />
     <Route path ="/Houses/Baratheon" component={House06} />
-    
+    <Route path ="/Houses/Lannister" component={House07} />
 </Switch>
             </div>
             </Router>
