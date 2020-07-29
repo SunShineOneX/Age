@@ -7,7 +7,7 @@ class House04 extends Component {
     render() {
         return (
             <div>
-                <h1>Hello House Stark!</h1>
+                <h1>Hello House Greyjoy!</h1>
             </div>
         )
     }
