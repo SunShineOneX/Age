@@ -1,3 +1,37 @@
+# Age of Heroes
+A one-stop shop for GoT related information including, lore, the history of Westeros, and all there is to know about each individual house and kingdom.
+
+![Project Showcase](https://github.com/SunShineOneX/Watchers-on-the-Wall/blob/master/Project-showcase.png?raw=true)
+
+## MVP Features
+
+- Explore the 7 most prominent houses in rich detail, diving deep into the people who founded them and inhabit them, their way of life and culture, and discover their mantras and what makes them unique.
+
+## Post MVP Features
+- A quiz to determine which house you belong to.
+- A quiz to determine which hero from the Ages of Heroes time period you most embody in spirit based off of personality.
+- Got official twitter feed
+- Create a profile, choose your avatar and make posts on our official Age of Heroes discussion board
+- A random Quote of the day generator on your profile page
+
+## Motivation
+PerScholas Software Engineering program
+
+## Technologies Used
+ReactJS, bootstrap, firebase
+
+## Challenges
+- Learning firebase
+- Implementng a discussion board with profiles to post and discuss GoT topics.
+- Quizzes to determine which house and hero you most embody in spirit.
+
+## APIs
+- https://www.anapioficeandfire.com/api/
+- https://game-of-thrones-quotes.herokuapp.com/v1/random
+
+## Credits
+-Jeffrey Rockenbach https://github.com/SunShineOneX
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
