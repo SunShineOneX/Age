@@ -26,10 +26,15 @@ import axios from "axios";
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">All Houses</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">House Stark</a>
+          <a class="dropdown-item" href="#">House Targaryen</a>
+          <a class="dropdown-item" href="#">House Tyrell</a>
+          <a class="dropdown-item" href="#">House Greyjoy</a>
+          <a class="dropdown-item" href="#">House Martell</a>
+          <a class="dropdown-item" href="#">House Barratheon</a>
+          <a class="dropdown-item" href="#">House House Lannister</a>
         </div>
       </li>
     </ul>
