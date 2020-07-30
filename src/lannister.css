@@ -1,0 +1,15 @@
+body {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+}
+
+.lannister-summary {
+    margin: 2vh 20vw 2vh 20vw;
+}
+
+.lannister-quote {
+    margin: 2vh 20vw 2vh 20vw;
+}
