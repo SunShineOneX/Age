@@ -5,6 +5,7 @@ import "../stark.css"
 const API_CALL = "https://www.anapioficeandfire.com/api/houses/362";
 
 class House01 extends Component {
+
   constructor() {
     super();
     this.state = {
@@ -25,6 +26,7 @@ class House01 extends Component {
       console.log(res2);
     } catch {
       console.log("error my guy!");
+
     }
   }
 
