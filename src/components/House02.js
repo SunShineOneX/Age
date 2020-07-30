@@ -9,13 +9,22 @@ class House02 extends Component {
         super();
         this.state = {
             info: [],
+            cadetBranches: [],
+            titles:  [],
+            currentLord: [],
         };
     }
 
     async getHouseInfo() {
         try {
             const res = await axios.get(api_call);
+            const res2 = await axios.get(res.data.cadetBranches);
+            const res3 = await axios.get(res.data.currentLord);
+            
             this.setState({ info: res.data})
+            this.setState({ titles: res.data.titles})
+            this.setState({ cadetBranches: res2.data.name })
+           
         
     } catch {
         console.log("error");
@@ -29,6 +38,12 @@ class House02 extends Component {
         return (
             <div>
                 <h1>{this.state.info.name}</h1>
+                <h2>{this.state.info.words}</h2>
+                <h3>Region: {this.state.info.region}</h3>
+                <h3>Titles: {this.state.titles[0]}</h3>
+                <h3>Founded: {this.state.info.founded}</h3>
+                <h4>Ancestral Weapons: {this.state.ancestralWeapons}</h4>
+                <h4>Cadet Branch: {this.state.cadetBranches}</h4>
             </div>
         )
     }
