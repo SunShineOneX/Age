@@ -12,6 +12,7 @@ class House02 extends Component {
             cadetBranches: [],
             titles:  [],
             currentLord: [],
+            lordTitles: [],
         };
     }
 
@@ -20,11 +21,14 @@ class House02 extends Component {
             const res = await axios.get(api_call);
             const res2 = await axios.get(res.data.cadetBranches);
             const res3 = await axios.get(res.data.currentLord);
+  
             
             this.setState({ info: res.data})
             this.setState({ titles: res.data.titles})
             this.setState({ cadetBranches: res2.data.name })
-           
+            this.setState({ currentLord: res3.data})
+            this.setState({ lordTitles: res3.data.titles })
+
         
     } catch {
         console.log("error");
@@ -44,6 +48,16 @@ class House02 extends Component {
                 <h3>Founded: {this.state.info.founded}</h3>
                 <h4>Ancestral Weapons: {this.state.ancestralWeapons}</h4>
                 <h4>Cadet Branch: {this.state.cadetBranches}</h4>
+
+                {/* Seperate card */}
+
+                <h5>Current Lord: {this.state.currentLord.name}</h5>
+                <h5>Titles: {this.state.lordTitles[0]}</h5>
+                <h5>{this.state.lordTitles[1]}</h5>
+                <h5>{this.state.lordTitles[2]}</h5>
+                <h5>{this.state.lordTitles[3]}</h5>
+                <h5>{this.state.lordTitles[4]}</h5>
+                <h5>Born: {this.state.currentLord.born}</h5>
             </div>
         )
     }
