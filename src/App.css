@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #b2ebf2;
+  background-color: #ebebeb;
   margin: 5vh;
 }
 
@@ -11,4 +11,10 @@ body {
 
 .navbar-custom {
 background-color: white;
+}
+
+.stark-logo {
+  padding: 5vh 0 5vh 0;
+  width: 35vw;
+  border-radius: 5%;
 }
