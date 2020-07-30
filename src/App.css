@@ -3,5 +3,12 @@
 }
 
 body {
-  background-color: #f9d56e;
+  background-color: #b2ebf2;
+  margin: 5vh;
+}
+
+
+
+.navbar-custom {
+background-color: white;
 }

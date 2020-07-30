@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Switch, Route, withRouter } from "react-router-dom";
 import axios from "axios";
+import "../App.css"
 import Home from "./Home";
 import Houses from "./Houses";
 import House01 from "./House01";
@@ -15,8 +16,8 @@ import House07 from "./House07";
     render() {
         return (
             <Router>
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="App">
+                <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg">
   <a class="navbar-brand" href="#">Age of Heroes</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
