@@ -20,12 +20,16 @@ class House03 extends Component {
     async getHouseInfo() {
         try {
             const res = await axios.get(base_url);
-            const res2 = await axios.get(res.data.currentLord)
+            const res2 = await axios.get(res.data.currentLord);
+            const res3 = await axios.get(res.data.cadetBranches);
+            const res4 = await axios.get(res.data.founder);
+
             this.setState({ info: res.data})
             this.setState({ titles: res.data.titles})
             this.setState({ currentLord: res2.data})
             this.setState({ lordAliases: res2.data.titles})
-
+            this.setState({ cadetBranches: res3.data})
+            this.setState({ founder: res4.data})
         } catch {
             console.log("error");
         }
@@ -41,6 +45,7 @@ class House03 extends Component {
                 <h1>{this.state.info.name}</h1>
                 <h2>House Words: {this.state.info.words}</h2>
                 <h2>Region: {this.state.info.region}</h2>
+                <h2>Founder: {this.state.founder.name}</h2>
                 <h4>Titles:</h4>
                 <h5>{this.state.titles[0]}</h5>
                 <h5>{this.state.titles[1]}</h5>
@@ -48,13 +53,16 @@ class House03 extends Component {
                 <h5>{this.state.titles[3]}</h5>
                 <h5>{this.state.titles[4]}</h5>
                 <h5>{this.state.titles[5]}</h5>
-                <h5>Current Lord: {this.state.currentLord.name}</h5>
-                <h5>Born: {this.state.currentLord.born}</h5>
-                <h5>Titles: {this.state.lordAliases[0]}</h5>
-                <h5>Titles: {this.state.lordAliases[1]}</h5>
-                <h5>Titles: {this.state.lordAliases[2]}</h5>
-                <h5>Titles: {this.state.lordAliases[3]}</h5>
-                <h5>Titles: {this.state.lordAliases[4]}</h5>
+                <h4>Current Lord: {this.state.currentLord.name}</h4>
+                <h4>Born: {this.state.currentLord.born}</h4>
+                <h4>Titles:</h4>
+                <h5>{this.state.lordAliases[0]}</h5>
+                <h5>{this.state.lordAliases[1]}</h5>
+                <h5>{this.state.lordAliases[2]}</h5>
+                <h5>{this.state.lordAliases[3]}</h5>
+                <h5>{this.state.lordAliases[4]}</h5>
+                <h5>Cadet Branch: </h5>
+                <h4>{this.state.cadetBranches.name}</h4>
                 
 
             </div>
