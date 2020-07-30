@@ -29,6 +29,7 @@ class House06 extends Component {
         return (
             <div>
                 <h1>{this.state.info.name}</h1>
+                <h2>"{this.state.info.words}"</h2>
             </div>
         )
     }
