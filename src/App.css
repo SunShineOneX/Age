@@ -2,6 +2,7 @@
   text-align: center;
 }
 
-body {
-  background-color: #f9d56e;
+.navbar-custom {
+background-color: white;
 }
+
