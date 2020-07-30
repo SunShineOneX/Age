@@ -46,8 +46,9 @@ class House04 extends Component {
 
         <h6><strong><i>
           "We are ironborn. We're not subjects, we're not slaves. We do not plow
-          the field or toil in the mine. We take what is ours." ―Balon Greyjoy
+          the field or toil in the mine. We take what is ours." 
           </i></strong>
+          ―Balon Greyjoy
         </h6>
         <h3>Region: {this.state.info.region}</h3>
         <h3>Current Lord: {this.state.currentLord.name}</h3>
