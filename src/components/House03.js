@@ -46,13 +46,6 @@ class House03 extends Component {
                 <h2>House Words: {this.state.info.words}</h2>
                 <h2>Region: {this.state.info.region}</h2>
                 <h2>Founder: {this.state.founder.name}</h2>
-                <h4>Titles:</h4>
-                <h5>{this.state.titles[0]}</h5>
-                <h5>{this.state.titles[1]}</h5>
-                <h5>{this.state.titles[2]}</h5>
-                <h5>{this.state.titles[3]}</h5>
-                <h5>{this.state.titles[4]}</h5>
-                <h5>{this.state.titles[5]}</h5>
                 <h4>Current Lord: {this.state.currentLord.name}</h4>
                 <h4>Born: {this.state.currentLord.born}</h4>
                 <h4>Titles:</h4>
@@ -61,7 +54,7 @@ class House03 extends Component {
                 <h5>{this.state.lordAliases[2]}</h5>
                 <h5>{this.state.lordAliases[3]}</h5>
                 <h5>{this.state.lordAliases[4]}</h5>
-                <h5>Cadet Branch: </h5>
+                <h3>Cadet Branch: </h3>
                 <h4>{this.state.cadetBranches.name}</h4>
                 
 
