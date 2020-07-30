@@ -44,6 +44,12 @@ class House03 extends Component {
             <div>
                 <h1>{this.state.info.name}</h1>
                 <h2>House Words: {this.state.info.words}</h2>
+                <p className="tyrell-summary">House Tyrell of Highgarden is an extinct Great House of Westeros. It ruled over the Reach, a vast, fertile, 
+                    and heavily-populated region of southwestern Westeros, from their castle-seat of Highgarden as Lords Paramount of the Reach
+                     and Wardens of the South after taking control of the region from House Gardener during the Targaryen conquest.</p>
+                <h5><strong><i>""Growing Strong." Ha! The dullest words of any House.""</i></strong>
+                ―Olenna Tyrell
+                </h5>
                 <h2>Region: {this.state.info.region}</h2>
                 <h2>Founder: {this.state.founder.name}</h2>
                 <h4>Current Lord: {this.state.currentLord.name}</h4>
