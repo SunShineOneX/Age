@@ -38,6 +38,7 @@ class House05 extends Component {
   render() {
     return (
       <div className="martell">
+        <img className = "martell-logo" src={require("../assets/martell01.jpg")} />
         <h1>{this.state.info.name}</h1>
         <h2>{this.state.info.words}</h2>
         <h2>Region: {this.state.info.region}</h2>
