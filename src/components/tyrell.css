@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+.tyrell-logo {
+    padding: 5vh 0 5vh 0;
+    width: 35vw;
+    border-radius: 5%;
+  }
+
+
 .tyrell-summary {
     margin: 2vh 20vw 2vh 20vw;
 }
