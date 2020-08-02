@@ -5,6 +5,13 @@ min-height: 100%;
 text-align: center;
 }
 
+.targaryen-logo {
+    padding: 5vh 0 5vh 0;
+    width: 35vw;
+    border-radius: 5%;
+  }
+
+
 .house02__container {
     display: flex;
     flex-direction: column;
