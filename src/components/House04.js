@@ -35,6 +35,7 @@ class House04 extends Component {
   render() {
     return (
       <div className="greyjoy">
+        <img className = "greyjoy-logo" src={require("../assets/greyjoy01.jpg")} />
         <h1>{this.state.info.name}</h1>
         <h2>"{this.state.info.words}"</h2>
         <p className="greyjoy-summary">
