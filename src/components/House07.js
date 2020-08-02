@@ -32,6 +32,7 @@ class House07 extends Component {
     render() {
         return (
             <div className="lannister">
+                <img className = "lannister-logo" src={require("../assets/lannister01.jpg")} />
                 <h1>{this.state.info.name}</h1>
                 <h3>"{this.state.info.words}"</h3>
                 <p className="lannister-summary">House Lannister of Casterly Rock is one of the Great Houses of Westeros, 
