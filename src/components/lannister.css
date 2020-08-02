@@ -1,6 +1,10 @@
-body {
-    background-color: red;
+.lannister {
+    background-color: greenyellow;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
 }
+
 
 p {
     text-align: center;

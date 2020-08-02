@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import "../lannister.css";
+import "./lannister.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/229";
 
 class House07 extends Component {
@@ -31,7 +31,7 @@ class House07 extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="lannister">
                 <h1>{this.state.info.name}</h1>
                 <h3>"{this.state.info.words}"</h3>
                 <p className="lannister-summary">House Lannister of Casterly Rock is one of the Great Houses of Westeros, 

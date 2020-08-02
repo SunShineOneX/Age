@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "../App.css"
+import "./stark.css";
 const API_CALL = "https://www.anapioficeandfire.com/api/houses/362";
 
 class House01 extends Component {

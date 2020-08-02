@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import "../targaryen.css";
+import "./targaryen.css";
 const api_call = "https://www.anapioficeandfire.com/api/houses/378";
 
 class House02 extends Component {
@@ -40,7 +40,7 @@ class House02 extends Component {
 
     render() {
         return (
-            <div>
+            <div className="targaryen">
                 <h1>{this.state.info.name}</h1>
                 <h2>{this.state.info.words}</h2>
                 <div className="house02__container">

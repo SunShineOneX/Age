@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import "../greyjoy.css";
+import "./greyjoy.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/169";
 
 class House04 extends Component {

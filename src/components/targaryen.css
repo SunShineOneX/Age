@@ -1,0 +1,12 @@
+.targaryen {
+background-color: maroon;
+min-width: 100%;
+min-height: 100%;
+text-align: center;
+}
+
+.house02__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

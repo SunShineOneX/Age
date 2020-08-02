@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import "../martell.css";
+import "./martell.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/285";
 
 class House05 extends Component {
@@ -37,7 +37,7 @@ class House05 extends Component {
 
   render() {
     return (
-      <div>
+      <div className="martell">
         <h1>{this.state.info.name}</h1>
         <h2>{this.state.info.words}</h2>
         <h2>Region: {this.state.info.region}</h2>

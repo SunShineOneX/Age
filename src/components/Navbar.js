@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Switch, Route, withRouter } from "react-router-dom";
-import axios from "axios";
-import "../App.css"
 import Home from "./Home";
 import Houses from "./Houses";
 import House01 from "./House01";
