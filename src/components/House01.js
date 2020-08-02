@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import "../stark.css"
+import "../App.css"
 const API_CALL = "https://www.anapioficeandfire.com/api/houses/362";
 
 class House01 extends Component {
@@ -36,7 +35,7 @@ class House01 extends Component {
 
   render() {
     return (
-      <div>
+      <div className="stark">
           <img className = "stark-logo" src={require("../assets/stark01.jpg")} />
         <h1>{this.state.info.name}</h1>
         <h2>"{this.state.info.words}"</h2>

@@ -1,6 +1,7 @@
-body {
+ body {
     background-color: #ebebeb;
-    margin: 5vh;  
+    min-width: 100%;
+    min-height: 100%;
     text-align: center;
   }
 
@@ -13,4 +14,4 @@ body {
 
 .navbar-custom {
     background-color: #ebebeb;
-    }
+    } 

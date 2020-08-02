@@ -1,3 +1,8 @@
 body {
     background-color: maroon;
 }
+
+.house02__container {
+    display: flex;
+    flex-direction: column;
+}

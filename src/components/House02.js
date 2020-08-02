@@ -43,6 +43,7 @@ class House02 extends Component {
             <div>
                 <h1>{this.state.info.name}</h1>
                 <h2>{this.state.info.words}</h2>
+                <div className="house02__container">
                 <h3>Region: {this.state.info.region}</h3>
                 <h3>Titles: {this.state.titles[0]}</h3>
                 <h3>Founded: {this.state.info.founded}</h3>
@@ -58,6 +59,7 @@ class House02 extends Component {
                 <h5>{this.state.lordTitles[3]}</h5>
                 <h5>{this.state.lordTitles[4]}</h5>
                 <h5>Born: {this.state.currentLord.born}</h5>
+                </div>
             </div>
         )
     }
