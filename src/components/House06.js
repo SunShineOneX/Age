@@ -32,7 +32,7 @@ class House06 extends Component {
 
     render() {
         return (
-            <div>
+            <div className="baratheon">
                 <h1>{this.state.info.name}</h1>
                 <h2>"{this.state.info.words}"</h2>
                 <h3>Region: {this.state.info.region}</h3>

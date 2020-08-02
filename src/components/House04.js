@@ -34,7 +34,7 @@ class House04 extends Component {
 
   render() {
     return (
-      <div>
+      <div className="greyjoy">
         <h1>{this.state.info.name}</h1>
         <h2>"{this.state.info.words}"</h2>
         <p className="greyjoy-summary">

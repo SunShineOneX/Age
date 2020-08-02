@@ -41,7 +41,7 @@ class House03 extends Component {
 
     render() {
         return (
-            <div>
+            <div className="tyrell">
                 <h1>{this.state.info.name}</h1>
                 <h2>House Words: {this.state.info.words}</h2>
                 <p className="tyrell-summary">House Tyrell of Highgarden is an extinct Great House of Westeros. It ruled over the Reach, a vast, fertile, 
