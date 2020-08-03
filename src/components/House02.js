@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import "./targaryen.css";
 const api_call = "https://www.anapioficeandfire.com/api/houses/378";
@@ -44,6 +43,17 @@ class House02 extends Component {
                 <img className = "targaryen-logo" src={require("../assets/targaryen01.jpg")} />
                 <h1>{this.state.info.name}</h1>
                 <h2>{this.state.info.words}</h2>
+                <p className="targaryen-summary">House Targaryen of Dragonstone is an exiled Great House of Westeros and the former royal house of the 
+                    Seven Kingdoms. House Targaryen conquered and unified the realm before it was deposed during Robert's 
+                    Rebellion and House Baratheon replaced it as the new royal House. The two surviving Targaryens, Viserys and Daenerys, 
+                    fled into exile to the Free Cities of Essos across the Narrow Sea. House Lannister replaced House Baratheon as the royal House 
+                    following the destruction of the Great Sept of Baelor, but the realm was reconquered by Daenerys Targaryen, retaking the 
+                    Iron Throne following the Battle of King's Landing. After she laid waste to a surrendered King's Landing, Daenerys was 
+                    assassinated by Jon Snow to prevent further destruction. Jon became the last known living member of House Targaryen and his 
+                    identity as the son of Rhaegar Targaryen is kept hidden from Westeros. He is exiled to the Night's Watch for the assassination 
+                    of Daenerys. The bloodline of House Targaryen also still exists in various houses, such as House Baratheon, House Velaryon, and House Martell.</p>
+                    <h5 className="targaryen-quote"><strong><i>"Half the Targaryens went mad, didn't they? What's the saying? 'Every time a Targaryen is born the gods flip a coin.'"
+―Cersei Lannister to Tyrion Lannister</i></strong></h5>
                 <div className="house02__container">
                 <h3>Region: {this.state.info.region}</h3>
                 <h3>Titles: {this.state.titles[0]}</h3>

@@ -7,7 +7,7 @@ import axios from "axios";
 function componentName() {
     return (
         <div>
-            <h1>Hello houses page!</h1>
+            <h1>All houses</h1>
         </div>
     )
 }

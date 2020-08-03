@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Switch, Route, withRouter } from "react-router-dom";
 import Home from "./Home";
 import Houses from "./Houses";
+import Shop from "./Shop";
+import Cart from "./Cart";
 import House01 from "./House01";
 import House02 from "./House02";
 import House03 from "./House03";
@@ -27,7 +29,7 @@ import House07 from "./House07";
         <a class="nav-link" href=""><Link to="/">Home <span class="sr-only">(current)</span></Link></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="#"><Link to="/shop">Shop</Link></a>
       </li>
       
       <li class="nav-item dropdown">
@@ -48,7 +50,7 @@ import House07 from "./House07";
         
       </li>
       <li class="nav-item ml-auto">
-        <a class="nav-link " href="#">Cart</a>
+        <a class="nav-link " href="#"><Link to="/cart">Cart</Link></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -61,6 +63,8 @@ import House07 from "./House07";
 
     <Route exact path ="/" component={withRouter(Home)} />
     <Route exact path ="/houses" component={withRouter(Houses)} />
+    <Route path = "/shop" component={withRouter(Shop)} />
+    <Route path = "/CART" component={withRouter(Cart)} />
     <Route path ="/houses/stark" component={withRouter(House01)} />
     <Route path ="/houses/targaryen"  component={withRouter(House02)} />
     <Route path ="/houses/tyrell"  component={withRouter(House03)} />

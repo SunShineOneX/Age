@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import "./baratheon.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/17";

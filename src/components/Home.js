@@ -1,12 +1,17 @@
 import React from 'react'
+import Intro from "./Intro";
+import IntroImage from "./IntroImage"
+import Sources from "./Sources";
 
 
-function Houses() {
+function Home() {
     return (
         <div>
-            <h1>Hello home page!!</h1>
+            <Intro />
+            <IntroImage />
+            <Sources />
         </div>
     )
 }
 
-export default Houses;
+export default Home;

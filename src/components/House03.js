@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import "./tyrell.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/398"
@@ -48,9 +47,9 @@ class House03 extends Component {
                 <p className="tyrell-summary">House Tyrell of Highgarden is an extinct Great House of Westeros. It ruled over the Reach, a vast, fertile, 
                     and heavily-populated region of southwestern Westeros, from their castle-seat of Highgarden as Lords Paramount of the Reach
                      and Wardens of the South after taking control of the region from House Gardener during the Targaryen conquest.</p>
-                <h6><strong><i>""Growing Strong." Ha! The dullest words of any House.""</i></strong>
+                <h5 className="tyrell-quote"><strong><i>""Growing Strong." Ha! The dullest words of any House.""</i></strong>
                 ―Olenna Tyrell
-                </h6>
+                </h5>
                 <h2>Region: {this.state.info.region}</h2>
                 <h2>Founder: {this.state.founder.name}</h2>
                 <h4>Current Lord: {this.state.currentLord.name}</h4>

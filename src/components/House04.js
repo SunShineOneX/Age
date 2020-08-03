@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import "./greyjoy.css";
 const base_url = "https://www.anapioficeandfire.com/api/houses/169";
@@ -45,12 +44,12 @@ class House04 extends Component {
           is the Lord Reaper of Pyke.
         </p>
 
-        <h6><strong><i>
+        <h5 className="greyjoy-quote"><strong><i>
           "We are ironborn. We're not subjects, we're not slaves. We do not plow
           the field or toil in the mine. We take what is ours." 
           </i></strong>
           ―Balon Greyjoy
-        </h6>
+        </h5>
         <h3>Region: {this.state.info.region}</h3>
         <h3>Current Lord: {this.state.currentLord.name}</h3>
         <h4>Born: {this.state.currentLord.born}</h4>
