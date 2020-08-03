@@ -3,7 +3,7 @@ A one-stop shop for GoT related information including, lore, the history of West
 
 ## https://Age-of-Heroes.surge.sh
 
-![Project Showcase](https://github.com/SunShineOneX/Watchers-on-the-Wall/blob/master/Project-showcase.png?raw=true)
+![Project Showcase](https://github.com/SunShineOneX/Age-of-Heroes/blob/master/Project-showcase.png?raw=true)
 
 ## MVP Features
 
