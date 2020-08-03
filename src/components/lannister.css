@@ -1,28 +1,26 @@
 .lannister {
-    background-color: #c2b6a5;
-    min-width: 100%;
-    min-height: 100%;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    padding-bottom: 5vh;
+  background-color: #c2b6a5;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  padding-bottom: 5vh;
 }
 
 .lannister-logo {
-    padding: 5vh 0 5vh 0;
-    width: 35vw;
-    border-radius: 5%;
-  }
-
+  padding: 5vh 0 5vh 0;
+  width: 35vw;
+  border-radius: 5%;
+}
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .lannister-summary {
-    margin: 2vh 20vw 2vh 20vw;
+  margin: 2vh 20vw 2vh 20vw;
 }
 
 .lannister-quote {
-    margin: 2vh 20vw 2vh 20vw;
+  margin: 2vh 20vw 2vh 20vw;
 }
-

@@ -1,29 +1,29 @@
 .targaryen {
-background-color: maroon;
-min-width: 100%;
-min-height: 100%;
-text-align: center;
-font-family: 'Merriweather', serif;
-color: white;
-padding-bottom: 5vh;
+  background-color: maroon;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: white;
+  padding-bottom: 5vh;
 }
 
 .targaryen-logo {
-    padding: 5vh 0 5vh 0;
-    width: 35vw;
-    border-radius: 5%;
-  }
+  padding: 5vh 0 5vh 0;
+  width: 35vw;
+  border-radius: 5%;
+}
 
-  .targaryen-summary {
-    margin: 2vh 20vw 2vh 20vw;
+.targaryen-summary {
+  margin: 2vh 20vw 2vh 20vw;
 }
 
 .house02__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .targaryen-quote {
-    margin: 2vh 20vw 2vh 20vw;
+  margin: 2vh 20vw 2vh 20vw;
 }

@@ -13,7 +13,7 @@ class House04 extends Component {
       currentLordTitles: [],
     };
   }
-
+  // Async call using await axios to get api info
   async getHouseInfo() {
     try {
       const res = await axios.get(base_url);
@@ -34,7 +34,10 @@ class House04 extends Component {
   render() {
     return (
       <div className="greyjoy">
-        <img className = "greyjoy-logo" src={require("../assets/greyjoy01.jpg")} />
+        <img
+          className="greyjoy-logo"
+          src={require("../assets/greyjoy01.jpg")}
+        />
         <h1>{this.state.info.name}</h1>
         <h2>"{this.state.info.words}"</h2>
         <p className="greyjoy-summary">
@@ -44,10 +47,13 @@ class House04 extends Component {
           is the Lord Reaper of Pyke.
         </p>
 
-        <h5 className="greyjoy-quote"><strong><i>
-          "We are ironborn. We're not subjects, we're not slaves. We do not plow
-          the field or toil in the mine. We take what is ours." 
-          </i></strong>
+        <h5 className="greyjoy-quote">
+          <strong>
+            <i>
+              "We are ironborn. We're not subjects, we're not slaves. We do not
+              plow the field or toil in the mine. We take what is ours."
+            </i>
+          </strong>
           ―Balon Greyjoy
         </h5>
         <h3>Region: {this.state.info.region}</h3>
