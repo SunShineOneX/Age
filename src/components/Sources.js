@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Sources() {
   return (
     <div>
+       <img className="got-intro-image" src={require("../assets/got-intro-image.jpg")} />
       <h1>Sources</h1>
       <h4>
         <a href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki">

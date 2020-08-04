@@ -125,7 +125,7 @@ class Navbar extends Component {
             <Route exact path="/" component={withRouter(Home)} />
             <Route exact path="/houses" component={withRouter(Houses)} />
             <Route path="/shop" component={withRouter(Shop)} />
-            <Route path="/CART" component={withRouter(Cart)} />
+            <Route path="/cart" component={withRouter(Cart)} />
             <Route path="/houses/stark" component={withRouter(House01)} />
             <Route path="/houses/targaryen" component={withRouter(House02)} />
             <Route path="/houses/tyrell" component={withRouter(House03)} />
