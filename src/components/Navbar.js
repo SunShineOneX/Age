@@ -18,6 +18,10 @@ import House05 from "./House05";
 import House06 from "./House06";
 import House07 from "./House07";
 
+// This class component houses my navbar, with my router, all of its routes and a switch to 
+// map all of my different route paths to their respective components. Making it seem like it's a multi
+// page website.
+
 class Navbar extends Component {
   render() {
     return (
@@ -116,6 +120,7 @@ class Navbar extends Component {
               </form>
             </div>
           </nav>
+
           <Switch>
             <Route exact path="/" component={withRouter(Home)} />
             <Route exact path="/houses" component={withRouter(Houses)} />
