@@ -1,5 +1,5 @@
 # Age of Heroes
-A one-stop shop for GoT related information including, lore, the history of Westeros, and all there is to know about each individual house and kingdom.
+A one-stop shop for GoT related information including, lore, the history of Westeros, and all there is to know about each individual house and kingdom. This app utilized React.js, react-router, and axios.
 
 ## https://Age-of-Heroes.surge.sh
 
