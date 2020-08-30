@@ -37,6 +37,7 @@ class House01 extends Component {
     this.getHouseInfo();
   }
 
+
   render() {
     return (
       <div className="stark">
